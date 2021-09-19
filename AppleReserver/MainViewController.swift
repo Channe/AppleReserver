@@ -161,9 +161,9 @@ extension MainViewController: NSTableViewDataSource, NSTableViewDelegate {
             case "PartNumber":
                 return availability.partNumber
             case "Description":
-                return product.description
+                return product.productTitle
             case "Capacity":
-                return product.capacity
+                return product.dimensionCapacity.uppercased()
             case "Status":
                 return (availability.contract || availability.unlocked) ? "有货" : "无货"
             default:

@@ -8,6 +8,16 @@
 
 import Foundation
 
+/**
+ {
+ "storeNumber": "R320",
+ "city": "北京",
+ "latitude": "39.933456",
+ "storeName": "三里屯",
+ "enabled": true,
+ "longitude": "116.447967"
+ }
+ */
 struct Store: Codable {
     let storeNumber: String?
     let storeName: String?
