@@ -4,7 +4,7 @@
 ![Platform info](https://img.shields.io/badge/platform-macOS-lightgrey.svg)
 [![Build Status](https://travis-ci.org/Sunnyyoung/AppleReserver.svg?branch=master)](https://travis-ci.org/Sunnyyoung/AppleReserver)
 
-Apple官方预约监控助手
+Apple官方预约监控助手，支持 iPhone 13 系列
 
 ## Screenshot
 
